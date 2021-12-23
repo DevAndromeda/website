@@ -1,11 +1,11 @@
 const config = {
-    TITLE: "Yukitoki", // this will dynamically update the title
-    SITE_NAME: "Yukitoki",
+    TITLE: "Discord Player", // this will dynamically update the title
+    SITE_NAME: "Player",
     THEME: "light", // "light" | "dark"
     NAV: {
         ICON: {
             TYPE: "TEXT", // "TEXT" | "IMAGE"
-            VALUE: "Yukitoki", // IMAGE path or TEXT
+            VALUE: "Player", // IMAGE path or TEXT
             HREF: "/" // href
         },
         BUTTONS: [
@@ -21,32 +21,32 @@ const config = {
             },
             {
                 label: "Discord",
-                path: "https://discord.gg/uqB8kxh",
+                path: "https://androz2091.fr/discord",
                 newPage: true
             },
             {
                 label: "GitHub",
-                path: "https://github.com/DevSnowflake/Yukitoki",
+                path: "https://github.com/Androz2091/discord-player",
                 newPage: true
             }
         ]
     },
-    INSTALL_COMMAND: "Install Yukitoki",
+    INSTALL_COMMAND: "yarn add discord-player",
     HOME_LOGO: {
         TYPE: "TEXT", // "IMAGE" | "TEXT"
-        VALUE: "Yukitoki"
+        VALUE: "Discord Player"
     },
     DESCRIPTION: {
         TITLE: "About",
-        VALUE: "A customizable website to view docs for your projects"
+        VALUE: "🎧 Complete framework to simplify the implementation of music commands"
     },
     DESCRIPTION_LIST: {
         TITLE: "Why?",
-        VALUE: ["Fast", "Easy to install", "Responsive", "Dark & Light mode", "Custom 404 page"]
+        VALUE: ["Easy to use", "Beginner friendly", "Audio filters", "Lightweight", "Queue management"]
     },
     FOOTER: {
-        HEADER: "Yukitoki",
-        DESCRIPTION: "Custom documentation viewing website"
+        HEADER: "Discord Player",
+        DESCRIPTION: "🎧 Complete framework to simplify the implementation of music commands"
     },
     LINKS: {
         string: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
