@@ -1,6 +1,6 @@
 import DocsManager from "./DocsManager";
 
-const blacklisted = new Set(["docs", "gh-pages"]);
+const whitelisted = new Set(["master", "main", "develop"]);
 
 export default new DocsManager({
     id: "discord-player",
@@ -9,6 +9,6 @@ export default new DocsManager({
     repo: "Androz2091/discord-player",
     defaultTag: "master",
     docsBranch: "docs",
-    branchFilter: (branch) => !blacklisted.has(branch) && !branch.startsWith("dependabot/"),
+    branchFilter: (branch) => blacklisted.has(branch) && !branch.startsWith("dependabot/"),
     tagFilter: () => false
 });
